@@ -1,0 +1,32 @@
+<!doctype html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>Pong</title>
+		<link href = "pong.css" type = "text/css" rel = "stylesheet">
+	</head>
+	<body onLoad="start()">
+    	<div id="score">SCORES</div>
+        <div id ="match"><div id="red"> 00 </div> &nbsp; &nbsp; : &nbsp; &nbsp; <div id="green"> 00 </div></div>
+        <div id = "instructions">
+        	<h1> INSTRUCTIONS: </h1>
+        	<p> 1. PLAYER ONE uses the LEFT paddle. <br />
+                2. PLAYER TWO uses the RIGHT paddle. <br />
+            </p>
+            <h3> PLAYER ONE: </h3>
+            <p> 1. Use W key to move your paddle UP. <br />
+                2. Use S key to move your paddle DOWN.<br />
+            </p>
+            <h3> PLAYER TWO: </h3>
+            <p> 1. Use UP arrow to move your paddle UP. <br />
+                2. Use DOWN arrow to move your paddle DOWN.<br />
+            </p><br />
+            <p> <strong> The player who first gets to 15 points wins the game. </strong></p><br />
+            <button type="button" onClick="main()">START THE GAME</button>
+            <button type="button" onClick="pause()">PAUSE THE GAME</button>
+        </div>
+		<script src = "pong.js" type = "text/javascript"></script>
+        <div id = "made">
+        	Made with <div id = "heart"> &hearts; </div> by Kartik
+        </div>
+	</body>
+</html>
